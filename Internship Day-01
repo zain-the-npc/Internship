@@ -1,0 +1,22 @@
+inp_1=int(input("Enter an Integer"))
+inp_2=float(input("enter a float"))
+inp_3=input('enter a string ')
+
+
+
+##typecasting 
+
+
+a=float(inp_1)
+b=int(inp_2)
+
+##formatted print statements
+
+print(f"The integer you entered is : {inp_1}")
+print(f"The float you entered is : {inp_2}")
+print(f"The string you entered is : {inp_3}")
+
+print(f"integer to float is : {a} ")
+print(f"float to integer is : {b} ")
+
+
