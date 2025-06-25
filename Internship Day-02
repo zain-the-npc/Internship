@@ -1,4 +1,5 @@
-##This is the day 2 task of my internship in python at prosensia. 
+                                                         ## This is the day 2 task of my internship in python at prosensia. 
+
 
 full_name=input("enter your full name") 
 sepration = full_name.find(" ")
@@ -6,16 +7,29 @@ first_name = full_name[:sepration]
 last_name = full_name[sepration + 1:]
 print (f'Your First name is {first_name}')
 print(f'Your last name is {last_name}')
-##part 2 of task
-##asking user for 2 inputs              (Asking Directly in a non-string format using "float()")
+
+
+                                                        ## part 2 of task
+
+                                                        ## asking user for 2 inputs      (Asking Directly in a non-string format using "float()")
+
+
 num1=float(input('Enter First Number'))
 num2=float(input('Enter Second Number'))
-##basic calculator functions implementation
+
+
+                                                        ## basic calculator functions implementation
+
+
 sum_=num1+num2
 product=num1*num2
 remainder=num1-num2
 quotient=num1/num2
-##printing all the answers using f statements.
+
+
+                                                        ## printing all the answers using f statements.
+
+
 print(f'The sum of the two numbers is {sum_}')
 print(f'The remainder of the two numbers is {remainder}')
 print(f'The Product of the two numbers is {product}')
