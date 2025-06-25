@@ -23,7 +23,7 @@ num2=float(input('Enter Second Number'))
 
 sum_=num1+num2
 product=num1*num2
-remainder=num1-num2
+subtraction=num1-num2
 quotient=num1/num2
 
 
@@ -31,7 +31,7 @@ quotient=num1/num2
 
 
 print(f'The sum of the two numbers is {sum_}')
-print(f'The remainder of the two numbers is {remainder}')
+print(f'The result of the subtraction of the two numbers is {subtraction}')
 print(f'The Product of the two numbers is {product}')
 print(f'The Quotient of the two numbers is {quotient} ')
 
