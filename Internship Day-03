@@ -1,0 +1,28 @@
+                                                                ##Day 3 of Innernship in python at prosensia
+
+
+
+                                                                       ##Write a Python program that:
+                                                                    ##Takes a sentence input from the user
+
+sentence = input('Enter a sentence : ')
+
+                                                                  ##Splits the sentence into a list of words
+
+a=sentence.split(' ')
+print("List Of Words   -->>     :     ",a)
+
+                                               ##Prints the list, then joins the list back into a sentence using ' - ' separator
+
+b='-'.join(a)
+print("Joining Words Using '-' -->>     :     ",b)
+
+                                              ##Stores your first and last name in a tuple, then prints each part using indexing
+
+User_Name=('Zain','ul','Abideen')                                     ##Created A tuple with my name 
+print(f"Your First Name is {User_Name[0]}")
+print(f'Your Middle Name is {User_Name[1]}')
+print(f'Your Last Name is {User_Name[2]}')
+
+
+## X  -------------------------------------  X  ------------------------------------  X
