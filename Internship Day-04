@@ -1,0 +1,38 @@
+#Day-04 of internship in python at prosensia
+
+
+
+                                                                    # Tuple for student IDs
+immutable_s_ids = ('B23AI171',  'B23AI179', 'B23AI178')
+
+                                                               # "Set" to store unique course names
+
+courses = {"Python", "Artificial Intelligence", "Machine Learning","Computer Science"}
+
+                                                               # Add a course              (.add())
+courses.add("Data Analytics")
+
+                                                              # Remove a course           (.discard())
+
+courses.discard("Machine Learning")  # discard won't error if the course isn't found
+
+                                                                       # Print all courses
+
+print(f'The courses being offered currently are : {courses}')
+
+                                                                        # Print student IDs
+
+
+print(f'The IDs of enrolled students are :  {immutable_s_ids}')
+
+
+
+
+
+#                                                    |__________________________________________________________|
+#                                                                           All the comments 
+
+
+
+
+#   X ---------------------------------------------------------------- X ---------------------------------------------------------- x
