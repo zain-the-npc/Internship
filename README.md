@@ -17,3 +17,7 @@ In today’s task, I wrote a program that took a sentence, split it into a list 
 ## Day 04  
 I learned how sets are used to store unique items, how tuples are immutable, and how to write clean code using comments.
 For today’s task, I created a basic student record system that stored student IDs in a tuple, managed course names using a set (adding and removing courses), and included inline comments to explain the logic.
+
+## Day 05  
+I learned how to define and use functions in Python, including passing parameters, using default values, and calling functions with named arguments.
+In today’s task, I made a GPA calculator program that takes a list of grades, calculates the average using a function, and returns the GPA rounded to two decimal places. I used a formatted print statement to display the result clearly.
