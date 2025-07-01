@@ -1,0 +1,35 @@
+def grade_assign(obt_marks):
+    if obt_marks >= 85:
+        return 'A'
+    elif obt_marks >= 80:
+        return 'A-'
+    elif obt_marks >= 75:
+        return 'B+'
+    elif obt_marks >= 70:
+        return 'B'
+    elif obt_marks >= 65:
+        return 'B-'
+    elif obt_marks >= 60:
+        return 'C+'
+    elif obt_marks >= 55:
+        return 'D'
+    else:
+        return 'F'
+
+# Input from user
+obt_marks = float(input('Enter Your Obtained Marks: '))
+
+# Check for valid range
+if obt_marks < 0 or obt_marks > 100:
+    print('Please Enter a Valid Score')
+else:
+    s_name = input('Please Enter Your Name: ')
+    grade = grade_assign(obt_marks)
+
+    def summary(name, grade, score):
+        print(f'Student {name} scored {score} marks.')
+        print(f'Their grade is {grade}.')
+
+    summary(name=s_name, grade=grade, score=obt_marks)
+
+##  X --------------------------------- X -------------------------------- X
