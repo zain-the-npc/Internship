@@ -26,3 +26,8 @@ I learned how to define and use functions in Python, including passing parameter
 ## Day 06  
 I learned how to use Boolean logic and comparison operators along with if, elif, and else statements to control program flow.
 -> In today’s task, I created a conditional grading system that takes a numeric score, validates it, and then maps it to a letter grade using conditionals. I also added a second function that prints a formatted grade summary using named parameters like "Student Zara scored 87.5 → Grade: A-".
+
+
+## Day 07  
+I learned how to work with for loops, while loops, and nested loops, and how to use the enumerate() function to track index values.
+-> In today’s task, I created a smart list analyzer program that manually sorted a list of numbers without using any built-in functions. I used loops to calculate the sum, average, minimum, and maximum of the list, returned the results in a dictionary, and printed them using a second function with a loop and enumerate(). I also handled user input and added input validation.
