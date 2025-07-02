@@ -1,0 +1,50 @@
+##  Day 07 of internship in python at prosensia
+
+                                                                              # Ask user for numbers
+numbers_input = input("Enter numbers separated by spaces: ")
+
+                                                                          # Convert input to a list of numbers
+numbers = []
+for num in numbers_input.split():
+    if "." in num:
+        numbers.append(float(num))
+    else:
+        numbers.append(int(num))
+
+                                                                           # Manual Sorting (Selection Sort)
+for i in range(len(numbers)):
+    for j in range(i + 1, len(numbers)):
+        if numbers[j] < numbers[i]:
+            numbers[i], numbers[j] = numbers[j], numbers[i]
+
+                                                                         # Calculate sum, min, max using loops
+total = 0
+minimum = numbers[0]
+maximum = numbers[0]
+
+for num in numbers:
+    total += num
+    if num < minimum:
+        minimum = num
+    if num > maximum:
+        maximum = num
+
+                                                                               # Calculate average
+average = total / len(numbers)
+
+                                                                         # Store results in a dictionary
+results = {
+    "Sorted List": numbers,
+    "Sum": total,
+    "Average": average,
+    "Minimum": minimum,
+    "Maximum": maximum
+}
+
+
+print("\n Results:")
+for index, key in enumerate(results):
+    print(f"{index + 1}. {key}: {results[key]}")
+
+
+##   X ------------------------------------------------------- X --------------------------------------------------- X
