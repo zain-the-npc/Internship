@@ -1,0 +1,103 @@
+##        Today is my Day 08 od internship in python at prosenia.
+
+
+
+
+
+contacts = {
+    "Zain":  {"phone": "0333-xxxxxxx", "email": "zainthenpc02@email.com"},
+    "Mustafa": {"phone": "0319-xxxxxxxxx", "email": "MustafaSaim@email.com"}
+}
+
+                                                                               # -------- helper function ------------
+def is_valid_email(email: str) -> bool:
+    
+    return "@" in email and "." in email
+
+                                                                               # -------- main menu -----------------
+def manage_contact_book() -> None:
+    """Menu‑driven interface that runs until the user chooses Exit."""
+    while True:
+        # ---- menu ----
+        print("\n===== CONTACT BOOK =====")
+        print("1  Add new contact")
+        print("2  Update contact")
+        print("3  Retrieve contact")
+        print("4  View all contacts")
+        print("5  Exit")
+        
+        choice = input("Choose (1‑5): ").strip()
+
+                                                                              # --------- option 1: add -------------
+        if choice == "1":
+            name = input("Name: ").title()
+            if name in contacts:
+                print("That name already exists.")
+                continue
+
+            phone = input("Phone: ")
+            email = input("Email: ")
+            if not is_valid_email(email):
+                print("Invalid e‑mail (must contain “@” and “.”).")
+                continue
+
+            contacts[name] = {"phone": phone, "email": email}
+            print(f"{name} added.")
+
+                                                                                # ---- option 2: update -------------
+        elif choice == "2":
+            name = input("Name to update: ").title()
+            if name not in contacts:
+                print("Contact not found.")
+                continue
+
+            print(" a) Phone\n b) Email")
+            field = input("Update (a/b): ").lower()
+
+            if field == "a":
+                contacts[name]["phone"] = input("New phone: ")
+                print(" Phone updated.")
+            elif field == "b":
+                new_email = input("New e‑mail: ")
+                if is_valid_email(new_email):
+                    contacts[name]["email"] = new_email
+                    print("E‑mail updated.")
+                else:
+                    print("Invalid e‑mail.")
+            else:
+                print("Invalid choice.")
+
+                                                                                 # ---- option 3: retrieve ---------------
+        elif choice == "3":
+            name = input("Name to look up: ").title()
+            info = contacts.get(name)
+            if info:
+                print(f"{name}: Phone = {info['phone']}, E‑mail = {info['email']}")
+            else:
+                print("Contact not found.")
+
+                                                                                 # ---- option 4: list ------------------
+        elif choice == "4":
+            if not contacts:
+                print("Contact book is empty.")
+            else:
+                print("\n----- ALL CONTACTS -----")
+                for nm, info in contacts.items():
+                    print(f"{nm:10} | {info['phone']:15} | {info['email']}")
+                print("------------------------")
+
+                                                                                # ---- option 5: exit -------------------
+        elif choice == "5":
+            print("Goodbye!")
+            break
+
+                                                                                # ---- anything else -------------------
+        else:
+            print("Please enter a number from 1 to 5.")
+
+if __name__ == "__main__":
+    manage_contact_book()
+
+
+
+X    -----------------------------------------------------------------  X ------------------------------------------------------------ X
