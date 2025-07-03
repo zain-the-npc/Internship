@@ -31,3 +31,8 @@ I learned how to use Boolean logic and comparison operators along with if, elif,
 ## Day 07  
 I learned how to work with for loops, while loops, and nested loops, and how to use the enumerate() function to track index values.
 -> In today’s task, I created a smart list analyzer program that manually sorted a list of numbers without using any built-in functions. I used loops to calculate the sum, average, minimum, and maximum of the list, returned the results in a dictionary, and printed them using a second function with a loop and enumerate(). I also handled user input and added input validation.
+
+
+## Day 08  
+I learned how to use dictionaries to build a contact book, store nested information, and access data using keys. 
+-> In today’s task, I made a dynamic contact book that lets users add, update, retrieve, and view all contacts using a while loop menu system. I validated emails, prevented duplicate entries, normalized names using   .title(), and used dictionary operations to handle all features in a beginner-friendly way.
