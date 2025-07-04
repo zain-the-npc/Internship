@@ -36,3 +36,8 @@ I learned how to work with for loops, while loops, and nested loops, and how to 
 ## Day 08  
 I learned how to use dictionaries to build a contact book, store nested information, and access data using keys. 
 -> In today’s task, I made a dynamic contact book that lets users add, update, retrieve, and view all contacts using a while loop menu system. I validated emails, prevented duplicate entries, normalized names using   .title(), and used dictionary operations to handle all features in a beginner-friendly way.
+
+
+## Day 09  
+I learned how to read and process text files with `open()` and the `with` context manager, and how to write robust code using `try`, `except`, and `finally` blocks. 
+-> In today’s task, I built a student‑marks reader that prompts for a file path, reads each line, cleans and validates the data, skips entries with missing or invalid marks, stores valid results in a dictionary, prints each student’s mark, and safely calculates the class average while counting how many records were skipped.
