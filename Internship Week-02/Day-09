@@ -1,0 +1,76 @@
+
+
+
+                                                                              # Day 08 of Learning python at prosensia
+
+
+
+def read_student_file(file_path):
+  students = {}
+  skipped = 0
+
+  with open(file_path, "r") as file:
+      for line in file:
+          line = line.strip()
+
+          if line == "":
+              continue
+
+          if "," not in line:
+              skipped += 1
+              continue
+
+          name, mark = line.split(",")
+
+          name = name.strip()
+          mark = mark.strip()
+
+          if name == "" or mark == "":
+              skipped += 1
+              continue
+
+          try:
+              mark = int(mark)
+              students[name] = mark
+          except:
+              skipped += 1
+
+  return students, skipped
+
+
+def print_results(students, skipped):
+  if len(students) == 0:
+      print("No valid data to show.")
+  else:
+      print("\nStudent Marks:")
+      for name in students:
+          print(f"{name}: {students[name]}")
+
+      try:
+          total = sum(students.values())
+          average = total / len(students)
+          print(f"\nAverage Marks: {average:.2f}")
+      except:
+          print("Error while calculating average.")
+
+  print(f"\nSkipped entries: {skipped}")
+
+
+
+                                      # ------------ Main ------------
+
+
+while True:
+  file_path = input("Enter file path: ").strip()
+  try:
+      students, skipped = read_student_file(file_path)
+      break
+  except FileNotFoundError:
+      print("File not found. Try again.\n")
+
+print_results(students, skipped)
+input("\nPress Enter to exit...")
+
+
+
+X ------------------------------------- X ----------------------------------- X
