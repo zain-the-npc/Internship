@@ -41,3 +41,10 @@ I learned how to use dictionaries to build a contact book, store nested informat
 ## Day 09  
 I learned how to read and process text files with `open()` and the `with` context manager, and how to write robust code using `try`, `except`, and `finally` blocks. 
 -> In today’s task, I built a student‑marks reader that prompts for a file path, reads each line, cleans and validates the data, skips entries with missing or invalid marks, stores valid results in a dictionary, prints each student’s mark, and safely calculates the class average while counting how many records were skipped.
+
+
+## Day 10  
+I learned how to define classes, constructors, and use inheritance in Python to build organized, modular programs.
+-> In today’s task, I built an inventory management system using object-oriented programming. I created a base class for products and a subclass for perishable items that apply discounts if expiry is near. I also created an inventory manager class to add, search, and list products, and used lambda functions and comprehensions to filter and export data. I moved the restock logic to a separate file and imported it using a utility module.
+
+[ 📁 On GitHub, I organized this by keeping the main program file in the `Week-3/Day-10/` folder and placed the helper module `inventory_utils.py` in the same directory to keep the code clean and modular.]
