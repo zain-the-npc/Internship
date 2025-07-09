@@ -1,0 +1,3 @@
+Pen: {'price': 10, 'quantity': 13, 'total': 130}
+Milk: {'price': 50, 'quantity': 8, 'total': 320.0}
+Yogurt: {'price': 40, 'quantity': 10, 'total': 400}
