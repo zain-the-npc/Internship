@@ -1,0 +1,79 @@
+##                   Day - 10 of python intenship at prosensia
+
+
+  
+from inventory_utils import restock_product
+
+# Base class
+class Product:
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+
+    def total_value(self):
+        return self.price * self.quantity
+
+# Subclass
+class PerishableProduct(Product):
+    def __init__(self, name, price, quantity, expiry_days):
+        super().__init__(name, price, quantity)
+        self.expiry_days = expiry_days
+
+    def total_value(self):
+        value = super().total_value()
+        if self.expiry_days < 5:
+            return value * 0.8  # Apply 20% discount
+        return value
+
+# Inventory Manager
+class InventoryManager:
+    def __init__(self):
+        self.products = []
+
+    def add_product(self, product):
+        self.products.append(product)
+
+    def list_inventory(self):
+        for i, product in enumerate(self.products):
+            print(f"{i+1}. {product.name} - Rs.{product.price} x {product.quantity} = Rs.{product.total_value()}")
+
+    def search_by_name(self, term):
+        matches = [p for p in self.products if term.lower() in p.name.lower()]
+        for p in matches:
+            print(f"{p.name} - Rs.{p.price} x {p.quantity} = Rs.{p.total_value()}")
+
+    def restock_all(self):
+        for product in self.products:
+            restock_product(product)
+
+    def export_summary(self, filename="inventory_summary.txt"):
+        summary = {p.name: {"price": p.price, "quantity": p.quantity, "total": p.total_value()} for p in self.products}
+        with open(filename, "w") as f:
+            for name, data in summary.items():
+                f.write(f"{name}: {data}\n")
+
+# ----------- RUN -------------------
+if __name__ == "__main__":
+    inv = InventoryManager()
+
+    inv.add_product(Product("Pen", 10, 5))
+    inv.add_product(PerishableProduct("Milk", 50, 2, 3))
+    inv.add_product(PerishableProduct("Yogurt", 40, 3, 6))
+
+    print("\nInventory:")
+    inv.list_inventory()
+
+    print("\nSearch for 'milk':")
+    inv.search_by_name("milk")
+
+    print("\nRestocking...")
+    inv.restock_all()
+
+    print("\nInventory after restocking:")
+    inv.list_inventory()
+
+    print("\nExporting summary to file...")
+    inv.export_summary()
+
+##  X -------------------------------------------------------- X ---------------------------------------------------------- X
