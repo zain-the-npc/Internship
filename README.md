@@ -48,3 +48,10 @@ I learned how to define classes, constructors, and use inheritance in Python to 
 -> In today’s task, I built an inventory management system using object-oriented programming. I created a base class for products and a subclass for perishable items that apply discounts if expiry is near. I also created an inventory manager class to add, search, and list products, and used lambda functions and comprehensions to filter and export data. I moved the restock logic to a separate file and imported it using a utility module.
 
 [ 📁 On GitHub, I organized this by keeping the main program file in the `Week-3/Day-10/` folder and placed the helper module `inventory_utils.py` in the same directory to keep the code clean and modular.]
+
+## Day 11  
+I learned how to build a full employee management system using object-oriented programming, file handling, and modular code design. 
+-> In today’s task, I created a program that can store, search, sort, and report employee data from a text file. I made separate classes for `Employee` and `EmployeeManager`, used lambda functions for filtering, and handled errors using try-except blocks. The code is split into multiple files for better organization, and a report is generated in a separate file based on the stored data.
+
+[📁 For more details, visit the **Day-11.Dir** folder in the repository and read the `readme.md` file there.]
+
