@@ -1,0 +1,19 @@
+class Employee:
+    def __init__(self, name, department, salary, joining_year):
+        self.name = name
+        self.department = department
+        self.salary = float(salary)
+        self.joining_year = int(joining_year)
+
+    def display(self):
+        print(f"Name: {self.name}, Department: {self.department}, Salary: {self.salary}, Joining Year: {self.joining_year}")
+
+    def to_line(self):
+        return f"{self.name},{self.department},{self.salary},{self.joining_year}\n"
+
+    @staticmethod
+    def from_line(line):
+        parts = line.strip().split(",")
+        if len(parts) == 4:
+            return Employee(parts[0], parts[1], parts[2], parts[3])
+        return None
