@@ -1,4 +1,4 @@
-# Day11_EmployeeManager
+# Day11 EmployeeManager 
 
 This is a simple command-line Employee Management System built using Python. It allows you to:
 
@@ -20,5 +20,8 @@ This is a simple command-line Employee Management System built using Python. It 
 - `employee.py`: Contains the Employee class
 - `manager.py`: Manages employees and file operations
 - `main.py`: User interface and menu
+
+  The following 2 files will be generated automatically.
+  
 - `employee_data.txt`: Stores employee records
 - `employee_report.txt`: Stores report data
