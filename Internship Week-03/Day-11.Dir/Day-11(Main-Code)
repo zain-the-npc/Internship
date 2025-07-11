@@ -1,0 +1,51 @@
+##    Day 11 of Python Internship At Prosensia.
+
+
+
+
+from manager import EmployeeManager
+
+def main():
+    manager = EmployeeManager()
+
+    while True:
+        print("\nEmployee Management System")
+        print("1. Add Employee")
+        print("2. List Employees")
+        print("3. Search by Name or Department")
+        print("4. Sort by Salary")
+        print("5. Generate Report")
+        print("6. Exit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == '1':
+            try:
+                name = input("Enter name: ")
+                department = input("Enter department: ")
+                salary = float(input("Enter salary: "))
+                joining_year = int(input("Enter joining year: "))
+                manager.add_employee(name, department, salary, joining_year)
+            except ValueError:
+                print("Invalid input. Please enter correct data types.")
+        elif choice == '2':
+            manager.list_employees()
+        elif choice == '3':
+            term = input("Enter search term (name or department): ")
+            manager.search_employee(term)
+        elif choice == '4':
+            sort_order = input("Sort by descending salary? (yes/no): ").lower()
+            manager.sort_by_salary(descending=(sort_order == 'yes'))
+        elif choice == '5':
+            manager.generate_report()
+        elif choice == '6':
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid option. Please choose from 1 to 6.")
+
+if __name__ == "__main__":
+    main()
+
+
+##   X ------------------------------- X ---------------------------------- X
