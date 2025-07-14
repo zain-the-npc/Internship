@@ -49,9 +49,16 @@ I learned how to define classes, constructors, and use inheritance in Python to 
 
 [ 📁 On GitHub, I organized this by keeping the main program file in the `Week-3/Day-10/` folder and placed the helper module `inventory_utils.py` in the same directory to keep the code clean and modular.]
 
+
 ## Day 11  
 I learned how to build a full employee management system using object-oriented programming, file handling, and modular code design. 
 -> In today’s task, I created a program that can store, search, sort, and report employee data from a text file. I made separate classes for `Employee` and `EmployeeManager`, used lambda functions for filtering, and handled errors using try-except blocks. The code is split into multiple files for better organization, and a report is generated in a separate file based on the stored data.
 
 [📁 For more details, visit the **Day-11.Dir** folder in the repository and read the `readme.md` file there.]
+
+
+## Day 12  
+I built a simple client interpreter program in Python that reads a text file sent by a client and extracts useful information like the project name, list of features, timeline, and priority. The program then prints a clean summary on the screen and saves it to a new `.txt` file. As a bonus, it also creates a `.json` file where each feature is marked as "Not Started" to help track progress later. It's basically like a mini assistant that reads a client’s project brief and turns it into a clear and usable summary.
+
+[📁 For more details, check the **Day-12** folder and read the `readme.md` file there.]
 
