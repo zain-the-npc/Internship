@@ -1,0 +1,6 @@
+
+def create_feature_status(features):
+    status_dict = {}
+    for feature in features:
+        status_dict[feature] = "Not Started"
+    return status_dict
