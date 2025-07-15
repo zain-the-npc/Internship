@@ -62,3 +62,8 @@ I built a simple client interpreter program in Python that reads a text file sen
 
 [📁 For more details, check the **Day-12** folder and read the `readme.md` file there.]
 
+## Day 13  
+I created a Python program that connects to a public currency exchange API and fetches live exchange rates for selected currencies. I used the ExchangeRate API (`https://api.exchangerate-api.com/v4/latest/USD`) to get the latest data in JSON format. The program extracts useful details like the base currency, date, and rates for specific currencies such as EUR, GBP, PKR, INR, and more. It then prints a neat summary on the screen and saves the results to a text file named `exchange_report.txt`.
+
+
+
