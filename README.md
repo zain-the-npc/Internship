@@ -62,8 +62,13 @@ I built a simple client interpreter program in Python that reads a text file sen
 
 [📁 For more details, check the **Day-12** folder and read the `readme.md` file there.]
 
+
 ## Day 13  
 I created a Python program that connects to a public currency exchange API and fetches live exchange rates for selected currencies. I used the ExchangeRate API (`https://api.exchangerate-api.com/v4/latest/USD`) to get the latest data in JSON format. The program extracts useful details like the base currency, date, and rates for specific currencies such as EUR, GBP, PKR, INR, and more. It then prints a neat summary on the screen and saves the results to a text file named `exchange_report.txt`.
+
+
+## Day 14  
+I worked on visualizing data using Python libraries like Matplotlib, Seaborn, and Pandas. I loaded and cleaned sales data from a CSV file and then created multiple charts: a line chart to show monthly revenue for Product A, a bar chart for product revenue in March, a pie chart to show market share distribution, and a correlation heatmap for product revenue comparison. All plots were saved to the `/plots` folder as image files.
 
 
 
