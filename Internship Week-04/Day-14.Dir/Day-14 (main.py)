@@ -1,0 +1,76 @@
+# Day 14 of python internship at prosensia
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+
+
+# Load and clean data
+df = pd.read_csv("sales.csv")
+df.dropna(inplace=True)
+
+                # Line Chart: Monthly Revenue for Product A
+
+def plot_line():
+    df_a = df[df['Product'] == 'A']
+    plt.figure(figsize=(8, 5))
+    plt.plot(df_a['Month'], df_a['Revenue'], marker='o', linestyle='-', color='blue')
+    plt.title("Monthly Revenue - Product A")
+    plt.xlabel("Month")
+    plt.ylabel("Revenue")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig("plots/line_chart.png")
+    plt.close()
+
+                # Bar Chart: Product Revenue in March
+
+def plot_bar():
+    march = df[df['Month'] == 'March']
+    plt.figure(figsize=(7, 5))
+    plt.bar(march['Product'], march['Revenue'], color='green')
+    plt.title("March Revenue by Product")
+    plt.xlabel("Product")
+    plt.ylabel("Revenue")
+    plt.tight_layout()
+    plt.savefig("plots/bar_chart.png")
+    plt.close()
+
+            # Pie Chart: Market Share in March
+
+def plot_pie():
+    march = df[df['Month'] == 'March']
+    plt.figure(figsize=(6, 6))
+    plt.pie(march['MarketShare'], labels=march['Product'], autopct='%1.1f%%')
+    plt.title("March Market Share")
+    plt.tight_layout()
+    plt.savefig("plots/pie_chart.png")
+    plt.close()
+
+
+            # Bonus: Correlation Heatmap
+ 
+def plot_heatmap():
+    pivot = df.pivot_table(index='Month', columns='Product', values='Revenue', fill_value=0)
+    corr = pivot.corr()
+    plt.figure(figsize=(6, 5))
+    sns.heatmap(corr, annot=True, cmap='coolwarm', linewidths=0.5)
+    plt.title("Correlation Heatmap - Revenue")
+    plt.tight_layout()
+    plt.savefig("plots/heatmap.png")
+    plt.close()
+
+                # Run all charts
+
+
+if __name__ == "__main__":
+    plot_line()
+    plot_bar()
+    plot_pie()
+    plot_heatmap()
+    print(" All charts generated and saved to /plots folder.")
+
+
+X --------------------------------- X ----------------------------------- X
