@@ -10,7 +10,7 @@ Easily add, view, and delete notes using terminal commands.
 - Auto help and argument parsing with `argparse`
 
 ## Usage
-```bash
+
 python cli_tool.py --add "Your note here"
 python cli_tool.py --view
 python cli_tool.py --delete 2
