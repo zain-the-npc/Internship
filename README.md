@@ -71,4 +71,14 @@ I created a Python program that connects to a public currency exchange API and f
 I worked on visualizing data using Python libraries like Matplotlib, Seaborn, and Pandas. I loaded and cleaned sales data from a CSV file and then created multiple charts: a line chart to show monthly revenue for Product A, a bar chart for product revenue in March, a pie chart to show market share distribution, and a correlation heatmap for product revenue comparison. All plots were saved to the `/plots` folder as image files.
 
 
+## Day 15  
+I built a simple desktop app with a graphical user interface using `customtkinter` that allows users to encrypt and decrypt text. The app takes user input, processes it through basic encryption/decryption logic, and displays an encyypted format message in a clean and responsive GUI.
+
+[📁 For more details, check the **Day-15** folder and read the `readme.md` file there.]
+
+
+## Day 16  
+I created a simple command-line notes app using Python's `argparse` module and `colorama` for colorful terminal output. The app allows users to add, view, and delete notes, which are all saved to a `notes.txt` file.
+
+[📁 For more details, check the **Day-16** folder and read the `readme.md` file there.]
 
