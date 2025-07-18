@@ -11,6 +11,8 @@ Easily add, view, and delete notes using terminal commands.
 
 ## Usage
 
-python cli_tool.py --add "Your note here"
-python cli_tool.py --view
-python cli_tool.py --delete 2
+- python cli_tool.py --add "Your note here"
+
+- python cli_tool.py --view
+
+- python cli_tool.py --delete 2
