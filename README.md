@@ -82,3 +82,9 @@ I created a simple command-line notes app using Python's `argparse` module and `
 
 [📁 For more details, check the **Day-16** folder and read the `readme.md` file there.]
 
+
+## Day 17
+I learned how to write unit tests using Python’s unittest module and how to log errors using the logging module.
+-> In today’s task, I updated the Day-13 currency script by adding try-except blocks, logging important events to error_log.txt, and creating a test_script.py file with unit tests for key functions. The code is now more reliable, testable, and production-ready.
+
+[📁 For more details, check the Day-17 folder and read the readme.md file there.]
