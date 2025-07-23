@@ -88,3 +88,10 @@ I learned how to write unit tests using Python’s unittest module and how to lo
 -> In today’s task, I updated the Day-13 currency script by adding try-except blocks, logging important events to error_log.txt, and creating a test_script.py file with unit tests for key functions. The code is now more reliable, testable, and production-ready.
 
 [📁 For more details, check the Day-17 folder and read the readme.md file there.]
+
+
+## Day 18  
+I built an automated CSV/Excel report generator that loads structured sales data, calculates revenue per product, identifies the top-performing item, and generates a summary report in text format. It also displays a bar chart of product-wise revenue using Matplotlib.
+
+📁 For more details, check the **Day-18** folder and read the `readme.md` file there.
+
