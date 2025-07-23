@@ -1,0 +1,8 @@
+📊 Sales Summary
+
+Product: Monitor – Revenue: 15000.00
+Product: Mouse – Revenue: 10500.00
+Product: Keyboard – Revenue: 9600.00
+
+🔸 Total Revenue: 205100.00
+🔸 Top Product: Monitor
