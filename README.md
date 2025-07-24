@@ -95,3 +95,9 @@ I built an automated CSV/Excel report generator that loads structured sales data
 
 📁 For more details, check the **Day-18** folder and read the `readme.md` file there.
 
+
+## Day 19
+I was tasked with deploying an encryption tool I had previously built using CustomTkinter. Since GUI apps can't be directly hosted online, I rebuilt the app using Streamlit and deployed it on Streamlit Cloud to make it publicly accessible via a web link.
+
+[📁 The actual deployment was done in a separate repo
+🔗 GitHub: zain-the-npc/VaultCode]
