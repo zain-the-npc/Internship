@@ -101,3 +101,16 @@ I was tasked with deploying an encryption tool I had previously built using Cust
 
 [📁 The actual deployment was done in a separate repo
 🔗 GitHub: zain-the-npc/VaultCode]
+
+
+## Day 20  
+I built an advanced typing speed test app in Python with difficulty levels, live stats, and colorful terminal output using `colorama`.
+
+[📁 For more details, check the **Day-20** folder and read the `readme.md` file there.]
+
+
+## Day 21  
+I created a weather web app called *Mausam* using Streamlit. It fetches real-time weather data from an API and presents it in a clean, user-friendly UI with dynamic styling and visuals.
+
+[📁 For more details, check the **Day-21** folder and read the `readme.md` file there.]
+
