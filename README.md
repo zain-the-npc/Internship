@@ -114,3 +114,9 @@ I created a weather web app called *Mausam* using Streamlit. It fetches real-tim
 
 [📁 For more details, check the **Day-21** folder and read the `readme.md` file there.]
 
+
+## Day 22  
+I built a GUI-based Typing Speed Test using Streamlit. The app lets users select difficulty, type the passage, and then calculates WPM, accuracy, and errors in a clean, interactive interface.
+
+📁 For more details, check the **Day-22** folder and read the `readme.md` file there.
+
