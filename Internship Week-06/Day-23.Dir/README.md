@@ -1,14 +1,13 @@
-📘 ProSensia Python Internship – Day 23
+# 📘 **Day 23 – Portfolio Polishing & Career Preparation**
 
+As part of the **ProSensia Python Internship**, we were assigned several non-coding tasks on **Day 23** focused on enhancing our online presence and reflecting on our growth.
 
-Portfolio Polishing & Career Preparation
-🗓️ Task Summary
-On Day 23 of my Python internship at ProSensia, I focused on refining my professional presence and reflecting on my learning journey.
+---
 
- Key Activities:
-Updated my GitHub: README, pinned repositories, and profile summary.
+## ✅ **Assigned Tasks**
 
-Polished my LinkedIn: added internship experience, showcased projects, and highlighted relevant skills.
+- **Update GitHub profile** — including `README`, pinned repositories, and profile summary  
+- **Polish LinkedIn profile** — add internship experience, list projects, and highlight relevant skills  
+- **Write a self-reflection** — summarize key learnings, challenges, and overall progress
 
-Wrote a self-reflection to summarize my progress and growth throughout the internship.
-
+---
