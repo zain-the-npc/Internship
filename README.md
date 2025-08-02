@@ -93,7 +93,7 @@ I learned how to write unit tests using Python’s unittest module and how to lo
 ## Day 18  
 I built an automated CSV/Excel report generator that loads structured sales data, calculates revenue per product, identifies the top-performing item, and generates a summary report in text format. It also displays a bar chart of product-wise revenue using Matplotlib.
 
-📁 For more details, check the **Day-18** folder and read the `readme.md` file there.
+[📁 For more details, check the **Day-18** folder and read the `readme.md` file there.]
 
 
 ## Day 19
@@ -118,5 +118,17 @@ I created a weather web app called *Mausam* using Streamlit. It fetches real-tim
 ## Day 22  
 I built a GUI-based Typing Speed Test using Streamlit. The app lets users select difficulty, type the passage, and then calculates WPM, accuracy, and errors in a clean, interactive interface.
 
-📁 For more details, check the **Day-22** folder and read the `readme.md` file there.
+[📁 For more details, check the **Day-22** folder and read the `readme.md` file there.]
+
+
+## Day 23  
+I focused on portfolio polishing. This included updating my GitHub profile README, organizing pinned repositories, enhancing my LinkedIn profile with internship details, and writing a self-reflection on my progress throughout the internship.
+
+[📁 For more details, check the **Day-23** folder and read the `readme.md` file there.]
+
+
+## Day 24  
+I finalized and submitted my internship capstone project — TypeRush, a fully functional typing speed test web app built with Streamlit. All required features were completed, the code was structured into modules, and full documentation with screenshots and deployment link was added.
+
+📁 For more details, check the **Day-24** folder and read the `readme.md` file there.
 
