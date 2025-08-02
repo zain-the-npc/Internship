@@ -16,7 +16,7 @@ All assigned requirements for **Day 24 – Capstone Project Final Sprint** have 
 
 --
 
-## 📂 Repository Structure
+##  Repository Structure
 
 - `app.py` – Main application  
 - `utils/` – Helper functions and modules  
@@ -25,7 +25,12 @@ All assigned requirements for **Day 24 – Capstone Project Final Sprint** have 
 
 --
 
-## 📝 Notes
+##  Notes
 
 This marks the final submission of my internship capstone. All tasks have been completed as per the internship guidelines.
 
+
+
+📌 To run the app, click here: https://typerush.streamlit.app/
+
+📌 You can find the source code here: https://github.com/zain-the-npc/TypeRush
