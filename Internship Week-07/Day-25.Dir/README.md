@@ -1,15 +1,15 @@
-# 📍 TypeRush — Final Internship Project  
+#  TypeRush — Final Internship Project  
 **ProSensia Python Internship – Day 25: Capstone Reflection**
 
 ---
 
-## 🗓️ What’s This?
+##  What’s This?
 
 As part of the **final days** of the internship, we were asked to present our capstone project and reflect on what we learned. This is that reflection.
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 Working on **TypeRush** gave me a proper look at what it takes to turn an idea into something people can actually use. It wasn’t just about writing code — it was about pulling together logic, design, and usability.
 
@@ -24,7 +24,7 @@ It also made me a lot more comfortable with debugging, polishing, and adapting q
 
 ---
 
-## 🧠 Why It Mattered
+##  Why It Mattered
 
 This wasn’t just another project — it was a solo build where I had to figure things out on my own.  
 That helped me:
