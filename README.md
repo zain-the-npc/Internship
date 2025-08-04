@@ -130,5 +130,11 @@ I focused on portfolio polishing. This included updating my GitHub profile READM
 ## Day 24  
 I finalized and submitted my internship capstone project — TypeRush, a fully functional typing speed test web app built with Streamlit. All required features were completed, the code was structured into modules, and full documentation with screenshots and deployment link was added.
 
-📁 For more details, check the **Day-24** folder and read the `readme.md` file there.
+[📁 For more details, check the **Day-24** folder and read the `readme.md` file there.]
+
+
+## Day 25  
+Today was Capstone Demo Day! We were asked to present our final project, reflect on our learning journey, and share our experience with others. I summarized the key features of my capstone, discussed what I built, how it works, and what I learned throughout the internship.
+
+[📁 For more details, check the **Day-25** folder and read the `readme.md` file there.]
 
