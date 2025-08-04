@@ -1,95 +1,46 @@
-#  TypeRush — Typing Speed Test App  
-
-
-**Think you're fast? Prove it. TypeRush is where speed meets precision.**
+# 📍 TypeRush — Final Internship Project  
+**ProSensia Python Internship – Day 25: Capstone Reflection**
 
 ---
 
-## 🧩 What’s the Point?
+## 🗓️ What’s This?
 
-Typing is something we all do — but how good are we *really*?  
-Most typing tools are either boring, clunky, or feel like homework.  
-**TypeRush** brings the heat: quick rounds, slick UI, and instant stats to help you level up your typing game — without putting you to sleep.
+As part of the **final days** of the internship, we were asked to present our capstone project and reflect on what we learned. This is that reflection.
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 What I Learned
 
-- **Python** 🐍 — Core logic and performance tracking  
-- **Streamlit** 🌐 — Frontend UI and app framework  
-- **Custom CSS** 🎨 — Clean, modern visuals  
-- **Lottie Animations** 🎞 — For playful feedback and polish  
+Working on **TypeRush** gave me a proper look at what it takes to turn an idea into something people can actually use. It wasn’t just about writing code — it was about pulling together logic, design, and usability.
 
-**Utility Modules:**  
-- `get_text_by_difficulty()` → Dynamic text generator  
-- `calculate_accuracy()` → Precision checker  
-- `count_mistakes()` → Error tracker  
-- `calculate_wpm()` → Speed calculator  
-- `highlight_mistakes()` → Red = wrong. No excuses.
+Here’s what I took away:
 
----
+- How to build something end-to-end, even with bugs and rough edges  
+- How to design with users in mind, not just functionality  
+- How to spot what feels off — and fix it  
+- How to stay consistent and finish what I start  
 
-## 🧠 How It Works
-
-1. You pick a difficulty → App grabs a random passage  
-2. Countdown hits zero → Start typing  
-3. Hit Enter or click submit → The backend kicks in  
-4. It checks:
-   - How many characters were correct  
-   - How many were off  
-   - Time taken → Speed calculated  
-5. You get:
-   - **WPM**  
-   - **Accuracy %**  
-   - **Mistakes (visibly highlighted)**
-
-Simple. Fast. Brutally honest.
+It also made me a lot more comfortable with debugging, polishing, and adapting quickly when things didn’t work the first time.
 
 ---
 
-## 🎯 Key Features
+## 🧠 Why It Mattered
 
-- Difficulty selector: **Easy / Medium / Hard**  
-- 3-second pre-game countdown  
-- Speed, accuracy, and mistake tracking  
-- Mistake highlighting (in red, obviously)  
-- Click or Enter to submit — your call
-  
----
+This wasn’t just another project — it was a solo build where I had to figure things out on my own.  
+That helped me:
 
-##  What I Picked Up
-
-This solo build taught me how to tie together logic, design, and flow.  
-I learned to think like the user *and* the developer — creating something lightweight, clean, and functional that actually *feels* good to use.
+- Get better at decision-making  
+- Handle setbacks without getting stuck  
+- Think about the bigger picture — not just the code
 
 ---
 
+## 🙏 Thanks
 
-
-## ⚡ Final Note ⚡
-
-**Made from scratch. Runs smooth. Kinda proud of it, not gonna lie.**  
-Designed, developed, and shipped during the **Internship**, every part of TypeRush was built with intent: from logic to UI to user flow.
-
-It’s not flawless — and that’s the point.  
-**It’s real, raw, and evolving.**
+Appreciate the guidance and freedom from the **ProSensia** team throughout the internship.  
+A special Thanks to Mobeen Sarwar for being too co-operative <3
 
 ---
 
-### 🚀 Got feedback? Found a bug? Have an idea?
-
-**→ Spot a bug? Got ideas? **  
-**→ DM, ping, or yell across the internet — I’ll hear you.**  
-
-**Let’s make it better — or build what’s next.**
-
-
----
-
-
-📌 To run the app, click here: https://typerush.streamlit.app/
-
-📌 You can find the source code here: https://github.com/zain-the-npc/TypeRush
-
-
-
+🔗 [Try TypeRush Live](https://typerush.streamlit.app/)  
+🔗 [View Source Code](https://github.com/zain-the-npc/TypeRush)
