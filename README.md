@@ -143,3 +143,10 @@ Today was Capstone Demo Day! We were asked to present our final project, reflect
 I built a simple Fuzzy Q&A Bot in Python that answers predefined fun questions without using any external API. It uses fuzzy string matching to handle typos and slight wording changes, ensuring the bot responds even when input isn’t an exact match.  
 
 [📁 For more details, check the **Day-26** folder and read the `readme.md` file there.]
+
+
+## Day 27  
+I created a simple ReAct Agent demo that follows the Reason + Act framework for AI agents. The bot simulates thought steps, chooses actions, observes results, and produces a final answer. For this demo, the LLM is mocked, and the only tool implemented is a basic calculator.
+
+[📁 For more details, check the **Day-27** folder and read the `readme.md` file there.]
+
