@@ -35,10 +35,10 @@ That helped me:
 
 ---
 
-## 🙏 Thanks
+##  Thanks
 
 Appreciate the guidance and freedom from the **ProSensia** team throughout the internship.  
-A special Thanks to Mobeen Sarwar for being too co-operative <3
+
 
 ---
 
