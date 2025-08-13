@@ -150,3 +150,9 @@ I created a simple ReAct Agent demo that follows the Reason + Act framework for 
 
 [📁 For more details, check the **Day-27** folder and read the `readme.md` file there.]
 
+
+## Day 28  
+I extended my previous ReAct Agent demo to include command parsing and function execution. Instead of relying on a mocked LLM, the agent now directly reads plain text commands, determines the corresponding function, executes it with the right arguments, and returns the result. The Thought → Action → Observation → Final Answer flow remains the same, but now supports multiple tools such as add, subtract, and greet.
+
+[📁 For more details, check the **Day-28** folder and read the `readme.md` file there.]
+
