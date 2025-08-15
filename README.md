@@ -157,14 +157,14 @@ I extended my previous ReAct Agent demo to include command parsing and function 
 [📁 For more details, check the **Day-28** folder and read the `readme.md` file there.]
 
 
-## Function Calling Agent (Day 29 - Learn AI Agents)  
+## Day 29  
 Built a simple OpenAI function-calling demo to auto-fetch location, weather, and time — with **no user input**.  
 All data was **hardcoded** for demo purposes.  
 
 [📁 For more details, check the **Day-29** folder and read the `readme.md` file there.]  
 
 
-## Travel Agent GUI (Day 30 - Learn AI Agents)  
+## Day 30
 Made a minimal Tkinter GUI that takes destination, people, and budget, then shows hardcoded flights & hotels.  
 Clicking **Book** just shows “Booked” — no real APIs used.  
 
